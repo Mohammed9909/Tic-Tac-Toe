@@ -1,0 +1,125 @@
+body{
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+header{
+    background-color: rgb(104, 104, 104);
+    justify-content: space-evenly;
+    border: solid black;
+}
+
+.tic{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+}
+
+footer{
+    /* background-color: rgb(90, 208, 244);
+    align-items: flex-end;
+    text-align: end;
+    text-transform: uppercase;
+    position: relative; */
+    /* text-align: center; */
+	text-transform: uppercase;
+	padding: 0 30px 0 30px;
+	background-color:rgb(104, 104, 104);
+	font-size: 14px;
+	font-weight: 500;
+	
+    justify-content: space-between;
+    border:solid black;
+}
+
+.general{
+
+    text-align: left;
+    padding: 0 0 20px 20px;
+    font-size: 30px;
+    color: white;
+}
+
+#inline{
+    margin: 0 auto;
+    padding: 4px;
+    color: rgb(255, 0, 0);
+}
+
+#bord{
+  text-align: center;
+  margin: 8px auto;
+  border:solid black;
+  border-radius: 20px;
+  width: 700px;
+  height: 760px;
+}
+
+.container {
+    text-align: center;
+    margin: 90px auto;
+    border:solid white;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+  }
+
+.zone {
+    width: 140px;
+    height: 140px;
+    border: solid white;
+    margin: 6px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+
+  }
+
+  .scores{
+    /* text-align: center; */
+    /* padding-bottom: px; */
+    font-size: 8px;
+    /* padding-left: 10px; */
+    /* border:groove black; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* margin:auto; */
+  }
+
+.player1{
+    /* background-color: gray; */
+    /* margin: auto; */
+    /* padding-left: 30px; */
+    display: inline-block;
+    border:solid 1px black;
+}
+.player2{
+    /* background-color: gray; */
+    /* margin: auto; */
+    /* padding-left: 30px; */
+    display: inline-block;
+    border:solid 1px black;
+}
+.ties{
+    display: inline-block;
+    border:solid 1px black;
+}
+#randomize{
+    align-items: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* img{
+    height: 100px;
+width: 10px;
+} */
