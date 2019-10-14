@@ -13,7 +13,7 @@ const z9 = document.querySelector('#zone-9', 'img');
 
 
 
-
+let conter = 0 ;
 const play = function(){
     img = !img
     console.log(this)
@@ -28,12 +28,10 @@ const play = function(){
         const O = document.querySelector(`#${this.id} > img`);
     O.setAttribute("src",o);
     O.style.width="100%";
-
-    
     }
     this.removeEventListener("click",play)
    
-    
+    conter++;
     check();  
 }
 
@@ -42,9 +40,6 @@ const play = function(){
 const boot = document.querySelector('button');
 const onclick = function (){
 
-    // clear : function() {
-    //     this.play.clearRect(0, 0, this.canvas.width, this.canvas.height);
-    // }
 
 }
 
@@ -122,7 +117,7 @@ else if ( img1 == "images /o.png" && img5 == "images /o.png" && img9 == "images 
 else if ( img3 == "images /o.png" && img5 == "images /o.png" && img7 == "images /o.png"){
     alert("player 2 win");
         }
-else if( img1 && img2 && img3 && img4 && img5 && img6 && img7 && img8 && img9 == 0){
+else if( conter == 9){
     alert("Tei")
         }
         
