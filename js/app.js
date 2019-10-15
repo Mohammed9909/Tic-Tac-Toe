@@ -188,14 +188,15 @@ const check = function () {
         tei++;
         REListener();
     }
-    // console.log(scoreo, scorex)
 
     // the total how many x is win
     let scoreOfx = document.querySelector("span.scoreX");
     scoreOfx.textContent = scorex;
+    
     // the total how many o is win
     let scoreOfo = document.querySelector("span.scoreO");
     scoreOfo.textContent = scoreo;
+    // the total how many Tei
     let scoreOfTei = document.querySelector("span.scoreT");
     scoreOfTei.textContent = tei;
 
