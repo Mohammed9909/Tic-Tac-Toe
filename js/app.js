@@ -104,82 +104,82 @@ const check = function () {
 
 
     if (img1 == "images /x.png" && img2 == "images /x.png" && img3 == "images /x.png") {
-        alert("player 1 win");
+        alert("Player of X win");
         scorex++;
         REListener();
     }
     else if (img4 == "images /x.png" && img5 == "images /x.png" && img6 == "images /x.png") {
-        alert("player 1 win");
+        alert("Player of X win");
         scorex++;
         REListener();
     }
     else if (img7 == "images /x.png" && img8 == "images /x.png" && img9 == "images /x.png") {
-        alert("player 1 win");
+        alert("Player of X win");
         scorex++;
         REListener();
     }
     else if (img1 == "images /x.png" && img4 == "images /x.png" && img7 == "images /x.png") {
-        alert("player 1 win");
+        alert("Player of X win");
         scorex++;
         REListener();
     }
     else if (img2 == "images /x.png" && img5 == "images /x.png" && img8 == "images /x.png") {
-        alert("player 1 win");
+        alert("Player of X win");
         scorex++;
         REListener();
     }
     else if (img3 == "images /x.png" && img6 == "images /x.png" && img9 == "images /x.png") {
-        alert("player 1 win");
+        alert("Player of X win");
         scorex++;
         REListener();
     }
     else if (img1 == "images /x.png" && img5 == "images /x.png" && img9 == "images /x.png") {
-        alert("player 1 win");
+        alert("Player of X win");
         scorex++;
         REListener();
     }
     else if (img3 == "images /x.png" && img5 == "images /x.png" && img7 == "images /x.png") {
-        alert("player 1 win");
+        alert("Player of X win");
         scorex++;
         REListener();
     }
     else if (img1 == "images /o.png" && img2 == "images /o.png" && img3 == "images /o.png") {
-        alert("player 2 win");
+        alert("Player of O win");
         scoreo++;
         REListener();
     }
     else if (img4 == "images /o.png" && img5 == "images /o.png" && img6 == "images /o.png") {
-        alert("player 2 win");
+        alert("Player of O win");
         scoreo++;
         REListener();
     }
     else if (img7 == "images /o.png" && img8 == "images /o.png" && img9 == "images /o.png") {
-        alert("player 2 win");
+        alert("Player of O win");
         scoreo++;
         REListener();
     }
     else if (img1 == "images /o.png" && img4 == "images /o.png" && img7 == "images /o.png") {
-        alert("player 2 win");
+        alert("Player of O win");
         scoreo++;
         REListener();
     }
     else if (img2 == "images /o.png" && img5 == "images /o.png" && img8 == "images /o.png") {
-        alert("player 2 win");
+        alert("Player of O win");
         scoreo++;
         REListener();
     }
     else if (img3 == "images /o.png" && img6 == "images /o.png" && img9 == "images /o.png") {
-        alert("player 2 win");
+        alert("Player of O win");
         scoreo++;
         REListener();
     }
     else if (img1 == "images /o.png" && img5 == "images /o.png" && img9 == "images /o.png") {
-        alert("player 2 win");
+        alert("Player of O win");
         scoreo++;
         REListener();
     }
     else if (img3 == "images /o.png" && img5 == "images /o.png" && img7 == "images /o.png") {
-        alert("player 2 win");
+        alert("Player of O win");
         scoreo++;
         REListener();
     }

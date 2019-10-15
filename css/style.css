@@ -5,9 +5,11 @@ justify-content: space-between;
 flex-direction: column;
 
 }
+
 #backG{
     background: url("../images\ /backG.jpeg")repeat ;
 }
+
 header{
     background-color: #797367;
     justify-content: space-evenly;
@@ -15,14 +17,11 @@ header{
 }
 
 .tic{
-    /* background: url("images /tic tac toe.jpg"); */
     width: 100%;
     height: 80px;
-    /* position: absolute; */
     text-align: center;
     color: white;
     font-size: 40px;
-    /* padding: 20px; */
     font-style: unset; 
 
 }
@@ -32,14 +31,7 @@ width: 15%;
 }
 
 footer{
-    /* background-color: rgb(90, 208, 244);
-    align-items: flex-end;
-    text-align: end;
-    text-transform: uppercase;
-    position: relative; */
-    /* text-align: center; */
 	text-transform: uppercase;
-	/* padding: 0 20px 0 20px; */
 	background-color:#797367;
 	font-size: 14px;
 	font-weight: 500;
@@ -51,8 +43,7 @@ footer{
     right: 0px;
 }
 
-.general{
-
+.name{
     text-align: left;
     padding: 0 0 20px 20px;
     font-size: 30px;
@@ -102,23 +93,16 @@ footer{
     margin-top: 10px;
     background-color: white;
     border-radius: 20px;
-
   }
 
-  .scores{
-    /* text-align: center; */
-    /* padding-bottom: px; */
+.scores{
+    
     font-size: 8px;
-    /* padding-left: 10px; */
-    /* border:groove black; */
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-
   }
-
-
 
 .ties{
     display: inline-block;
@@ -132,13 +116,13 @@ footer{
 }
 
 #restart{
-position: absolute;
-top: 200px;
-left: 150px;
-background-color:#797367;
-color: #DAE6D0;
-border: solid ;
-border-radius:8px ;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    background-color:#797367;
+    color: #DAE6D0;
+    border: solid black;
+    border-radius:8px ;
 
 }
 .turn{
@@ -166,7 +150,6 @@ border-radius:8px ;
 .player{ 
     background-color: #797367;
     display: inline-block;
-    /* border:solid 2px black; */
     font-size: 18px;
     color: #DAE6D0;
 }
