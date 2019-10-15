@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Tic Tac Toe </title>
 </head>
-<body>
+<body id="backG">
     <header>
         <div class="tic">Tic Tac Toe </div>
         <!-- <img src="images/GA.png" alt=""> -->
         
     </header>
     <main>
-            <button id="randomize">Restart Game</button>
+            <button id="restart">Restart Game</button>
+            <div class="turn">Current Turn<img class="dImg"src="images /x.png"></div>
         <!-- bodr of the Game -->
     <div id="bord">
             <div class="container">
@@ -40,9 +41,9 @@
         <!-- <div class="restart"></div> -->
 		
 		<div class="scores">
-			<div class="player1">Player 1:<input class="p2"></input> (<span class="x"></span>)<span class="score">0</span></div>
-			<div class="ties">Tie<span class="score">0</span></div>
-			<div class="player2">Player 2:<input class="p2"></input> (<span class="o"></span>)<span class="score">0</span></div>
+			<div class="player"><p> </p> Player 1:<input class="p2"></input> <br> <span class="scoreX">0</span>  </div>
+			<div class="player"><p> </p> Tie <br><span class="scoreT">0</span></div>
+			<div class="player"><p> </p> Player 2:<input class="p2"></input> <br> <span class="scoreO">0</span>  </div>
 			<!-- <div class="swap" tabindex="0"></div> -->
         </div>
     </div>
