@@ -11,9 +11,9 @@ const z7 = document.querySelector('#zone-7', 'img');
 const z8 = document.querySelector('#zone-8', 'img');
 const z9 = document.querySelector('#zone-9', 'img');
 
-const turn = document.querySelector(".turn .dImg");
+const turn = document.querySelector(".turn .dImg")
 
-
+const win = document.querySelector('.win')
 //the conter for how many step they play in the game
 let conter = 0;
 let scorex = 0;
@@ -212,3 +212,7 @@ const REListener = function () {
     z8.removeEventListener("click", play);
     z9.removeEventListener("click", play);
 }
+
+
+
+
