@@ -162,7 +162,6 @@ footer{
 
 .winner{
     color: #DAE6D0;
-    /* background: blue; */
     position: absolute;
     text-align: center;
     top: 630px;
@@ -170,3 +169,74 @@ footer{
     font-size: 24px;
 }
 
+@media only screen and (max-width:1350px){
+
+
+}
+@media only screen and (max-width:375px){
+    footer{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    
+    }  
+    #bord{
+     width: 350px;
+    height: 480px;
+    left: 5px;
+    top: 250px;
+    
+    }  
+    .turn{
+        top: 100px;
+        left: 20px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .dImg{
+        width: 50%;
+        height: 60%;
+        left:24%;
+        top:30%;
+    
+    }
+    #restart{
+        top: 120px;
+        left: 250px;
+        height: 60px;
+        width: 100px;
+
+    }
+    .container {
+       
+        margin: 20px auto;
+        border:solid black;
+        border-radius:20px ;
+        width: 300px;
+        height: 310px;
+    }
+    .zone{
+    width: 80px;
+    height: 80px;
+    }
+    .itic {
+        width: 60%;
+        }
+    .name{
+        font-size: 18px;
+    }
+    .aboutme{
+        font-size: 8px;
+    }
+    .winner{
+        color: #DAE6D0;
+        position: absolute;
+        text-align: center;
+        top: 450px;
+        left:50px;
+        font-size: 24px;
+    }
+    }
