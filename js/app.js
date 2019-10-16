@@ -18,7 +18,7 @@ const win = document.querySelector('.winner');
 let conter = 0;
 let scorex = 0;
 let scoreo = 0;
-let tei = 0;
+let tie = 0;
 const play = function () {
     img = !img
     console.log(this)
@@ -91,7 +91,7 @@ z9.addEventListener("click", play);
 
 
 
-//the function know how is win and Tei
+//the function know how is win and Tie
 const check = function () {
     let img1 = document.querySelector("#img1").getAttribute("src");
     let img2 = document.querySelector("#img2").getAttribute("src");
@@ -185,8 +185,8 @@ const check = function () {
         REListener();
     }
     else if (conter == 9) {
-        win.innerText = "Tei";
-        tei++;
+        win.innerText = "Tie!!";
+        tie++;
         REListener();
     }
 
@@ -197,9 +197,9 @@ const check = function () {
     // the total how many o is win
     let scoreOfo = document.querySelector("span.scoreO");
     scoreOfo.textContent = scoreo;
-    // the total how many Tei
-    let scoreOfTei = document.querySelector("span.scoreT");
-    scoreOfTei.textContent = tei;
+    // the total how many Tie
+    let scoreOfTie = document.querySelector("span.scoreT");
+    scoreOfTie.textContent = tie;
 
 }
 
