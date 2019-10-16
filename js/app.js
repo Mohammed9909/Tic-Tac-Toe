@@ -1,6 +1,6 @@
 let img = false;
 const x = "images /x.png";
-const o = "images /O.png";
+const o = "images /o.png";
 const z1 = document.querySelector('#zone-1', "img");
 const z2 = document.querySelector('#zone-2', 'img');
 const z3 = document.querySelector('#zone-3', 'img');
