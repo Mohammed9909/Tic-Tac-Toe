@@ -175,22 +175,22 @@ footer{
 } */
 @media (max-width:375px){
     footer{
-        position: flex;
+        position: absolute;
         bottom: 0px;
         left: 0px;
         right: 0px;
     
     }  
     #bord{
-     width: 350px;
+    width: 350px;
     height: 480px;
     left: 5px;
-    top: 250px;
+    top: 210px;
     
     }  
     .turn{
-        top: 100px;
-        left: 20px;
+        top: 90px;
+        left: 10px;
         width: 100px;
         height: 100px;
         text-align: center;
@@ -204,10 +204,11 @@ footer{
     
     }
     #restart{
-        top: 120px;
+        top: 110px;
         left: 250px;
         height: 60px;
         width: 100px;
+        font-size: 18px;
 
     }
     .container {
