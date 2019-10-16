@@ -173,7 +173,7 @@ footer{
 
 
 }
-@media only screen and (max-width:375px){
+@media only screen and (max-width:374px){
     footer{
         position: absolute;
         bottom: 0px;
