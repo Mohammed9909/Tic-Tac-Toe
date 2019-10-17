@@ -1,23 +1,21 @@
-Raji 3:20 PM
+
 # Project # 1
 # Tic Tac-Toe
 ----
 ## Technologies used:
-### 1.HTML.
-### 2.CSS.
-### 3.JavaScript.
+### HTML.
+### CSS.
+### JavaScript.
 ### 4.Dom.
-### 5.Visual Studio tool
-### 6.Google chrome Devoloper tool.
 
 # User Story
-#### 1.As a user, I should be able to start a new tic tac toe game.
-#### 2.As a user, I should be able to click on a square to add X first and then O, and so on.
-#### 3.As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next.
-#### 4.As a user, I should not be able to click the same square twice.
-#### 5.As a user, I should be shown a message when I win, lose or tie.
-#### 6.As a user, I should not be able to continue playing once I win, lose, or tie.
-#### 7.As a user, I should be able to play the game again without refreshing the page.
+### 1.As a user, I should be able to start a new tic tac toe game.
+### 2.As a user, I should be able to click on a square to add X first and then O, and so on.
+### 3.As a user, I should be shown a message after each turn for if I win, lose, tie or who's turn it is next.
+### 4.As a user, I should not be able to click the same square twice.
+### 5.As a user, I should be shown a message when I win, lose or tie.
+### 6.As a user, I should not be able to continue playing once I win, lose, or tie.
+### 7.As a user, I should be able to play the game again without refreshing the page.
 ## Planging and devolopment
 #### Day 1.
 I start with user experince and how they want the game look like, I did a wirefarmes.
