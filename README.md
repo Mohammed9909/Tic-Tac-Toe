@@ -35,5 +35,5 @@ I did a funcnction that check all spots that the player filled if it match the w
 When Im trying to find out the currnt move for the player it was a bit hard.
 Styling and design with CSS it was my favorite.
 ----
-##  Demo linl
+##  Demo link
 * [Tic Tac-Toe](https://mohammed9909.github.io/Tic-Tac-Toe/)
